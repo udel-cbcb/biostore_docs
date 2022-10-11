@@ -3,7 +3,7 @@ site_name: BioStore Documentation
 site_url: https://udel-cbcb.github.io/biostore_docs/
 repo_url: https://github.com/udel-cbcb/biostore_docs
 edit_uri: edit/main/_docs_src/src
-site_description: Provides documentation for the Biomedical Data Storage Resource (BioStore) at the University of Delaware.
+site_description: Documentation for the Biomedical Data Storage Resource (BioStore) at the University of Delaware.
 site_author: Amelia O. Harrison
 nav: 
   - About BioStore: index.md
