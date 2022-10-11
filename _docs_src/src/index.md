@@ -4,10 +4,6 @@ The Biomedical Data Storage Resource (BioStore) provides large data storage acce
 
 Currently allocations to qualified users are provided free of charge due to generous support, however charges may be incurred for some related  services including advanced data archiving, backup, and custom data management or security needs.
 
-## Who can use BioStore?
-
-TODO: Ask Shawn
-
 ## Using BioStore
 
 If you would like to use BioStore, please see our [Getting Started](./getting_started.md) page.  The instructions there will walk you through the process of requesting storage, creating an account, and connecting to the server.
