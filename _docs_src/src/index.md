@@ -8,10 +8,6 @@ Currently allocations to qualified users are provided free of charge due to gene
 
 TODO: Ask Shawn
 
-## What is BioStore, Really?
-
-BioStore is a shared high-performance storage cluster.  It consists of a Dell Isilon node cluster and 12 A300 storage nodes.  In total, BioStore offers almost 3 petabytes of storage.  
-
 ## Using BioStore
 
 If you would like to use BioStore, please see our [Getting Started](./getting_started.md) page.  The instructions there will walk you through the process of requesting storage, creating an account, and connecting to the server.
