@@ -6,7 +6,7 @@ You will be using a file sharing protocol called CIFS (Common Internet File Syst
 
 2\. Drop down the Go menu and select the option "Connect to Server."  A dialogue box of the same name should appear.
 
-<img src="http://127.0.0.1:8000/biostore_docs/img/finder_go_dropdown.png" alt="Go menu selection" width="400" />
+<img src="https://udel-cbcb.github.io/biostore_docs/img/finder_go_dropdown.png" alt="Go menu selection" width="400" />
 
 3\. In the dropdown box at the top, enter `cifs://zee.dbi.udel.edu/` and hit "Connect."
 
