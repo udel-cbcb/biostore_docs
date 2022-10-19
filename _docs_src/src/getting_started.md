@@ -29,7 +29,3 @@ Please click on your operating system you will be using to connect for specific 
 * Coming Soon: Linux
 
 BioStore can also be accessed from [Biomix](https://bioinformatics.udel.edu/core/hpc/), UD's high-performance computing cluster.  However, this access type will not be available for all users.  You will be notified upon receipt of your allocation request approval whether you have qualified for this use type.  Instructions for Biomix connection to BioStore are therefore available upon request only.
-
-## Using BioStore
-
-Now, you should be ready to use BioStore.  It's very easy to interact with BioStore, especially on a PC, but there are a few instructions to get you comfortable.  [Click here](./interact_with_biostore.md) for brief guidance on interacting with BioStore.
