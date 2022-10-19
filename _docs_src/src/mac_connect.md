@@ -1,6 +1,6 @@
 # Connecting to BioStore from MacOS
 
-You will be using a file sharing protocol called CIFS (Common Internet File System) to connect to Biomix from your Mac.  Before you try to connect, make sure that you have completed the steps on the ["Getting Started"](./getting_started.md) page and are connected to UD's network.  If you are not on campus, this means that you must connect using the [VPN]((https://udeploy.udel.edu/software/anyconnect-vpn/).
+You will be using a file sharing protocol called CIFS (Common Internet File System) to connect to Biomix from your Mac.  Before you try to connect, make sure that you have completed the steps on the ["Getting Started"](./getting_started.md) page and are connected to UD's network.  If you are not on campus, this means that you must connect using the [VPN](https://udeploy.udel.edu/software/anyconnect-vpn/).
 
 1\. Click on the Finder.
 
