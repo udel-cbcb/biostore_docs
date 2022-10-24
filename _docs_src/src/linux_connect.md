@@ -1,6 +1,6 @@
-# Connecting to BioStore from Windows
+# Connecting to BioStore from Linux
 
-You will be using a file sharing protocol called SMB (Server Message Block) to connect to BioSore from your Windows machine.  Before you try to connect, make sure that you have completed the steps on the ["Getting Started"](./getting_started.md) page and are connected to UD's network.  If you are not on campus, this means that you must connect using the [VPN](https://udeploy.udel.edu/software/anyconnect-vpn/).
+You will be using a file sharing protocol called SMB (Server Message Block) to connect to BioSore from your Linux machine.  Before you try to connect, make sure that you have completed the steps on the ["Getting Started"](./getting_started.md) page and are connected to UD's network.  If you are not on campus, this means that you must connect using the [VPN](https://udeploy.udel.edu/software/anyconnect-vpn/).
 
 If you are a Linux user, you probably already know that there are several flavors of Linux.  These instructions are for Ubuntu 20.04, but should be similar across Linux types.
 
