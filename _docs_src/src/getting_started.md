@@ -26,6 +26,6 @@ Please click on your operating system you will be using to connect for specific 
 
 * [MacOS](./mac_connect.md)
 * [Windows](./windows_connect.md)
-* Coming Soon: Linux
+* [Linux](./linux_connect.md)
 
 BioStore can also be accessed from [Biomix](https://bioinformatics.udel.edu/core/hpc/), UD's high-performance computing cluster.  However, this access type will not be available for all users.  You will be notified upon receipt of your allocation request approval whether you have qualified for this use type.  Instructions for Biomix connection to BioStore are therefore available upon request only.
