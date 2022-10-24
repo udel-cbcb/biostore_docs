@@ -11,7 +11,7 @@ nav:
       - Getting Started: getting_started.md
       - Connect from MacOS: mac_connect.md
       - Connect from Windows: windows_connect.md
-      - Interacting with BioStore: interact_with_biostore.md
+      - Connect from Linux: linux_connect.md
   - Other Resources:
       - FAQs: FAQs.md
 theme:
