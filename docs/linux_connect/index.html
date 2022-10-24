@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Amelia O. Harrison" /><link rel="canonical" href="https://udel-cbcb.github.io/biostore_docs/linux_connect/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Connecting to BioStore from Windows - BioStore Documentation</title>
+    <title>Connect from Linux - BioStore Documentation</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Connecting to BioStore from Windows";
+        var mkdocs_page_name = "Connect from Linux";
         var mkdocs_page_input_path = "linux_connect.md";
         var mkdocs_page_url = "/biostore_docs/linux_connect/";
       </script>
@@ -39,11 +39,11 @@
   
 
 
-<meta property="og:site_name" content="Connecting to BioStore from Windows - BioStore Documentation" />
+<meta property="og:site_name" content="Connect from Linux - BioStore Documentation" />
 
 <meta property="og:type" content="website">
 
-<meta property="og:title" content="Connecting to BioStore from Windows - BioStore Documentation">
+<meta property="og:title" content="Connect from Linux - BioStore Documentation">
 
 <meta property="description" content="Documentation for the Biomedical Data Storage Resource (BioStore) at the University of Delaware.">
 <meta property="og:description" content="Documentation for the Biomedical Data Storage Resource (BioStore) at the University of Delaware.">
@@ -54,7 +54,7 @@
 <meta property="og:locale" content="en_US">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Connecting to BioStore from Windows - BioStore Documentation">
+<meta name="twitter:title" content="Connect from Linux - BioStore Documentation">
 
   
 
@@ -83,14 +83,16 @@
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">Using BioStore</span></p>
-              <ul>
+              <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="../getting_started/">Getting Started</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../mac_connect/">Connect from MacOS</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../windows_connect/">Connect from Windows</a>
                   </li>
-                  <li class="toctree-l1"><a class="" href="../interact_with_biostore.md">Interacting with BioStore</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Connect from Linux</a>
+    <ul class="current">
+    </ul>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Other Resources</span></p>
@@ -112,7 +114,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>Connecting to BioStore from Windows</li>
+          <li>Using BioStore &raquo;</li>
+      <li>Connect from Linux</li>
     <li class="wy-breadcrumbs-aside">
           <a href="https://github.com/udel-cbcb/biostore_docs/edit/main/_docs_src/src/linux_connect.md" class="icon icon-github"> Edit on GitHub</a>
     </li>
@@ -128,21 +131,25 @@
 <p>1. Open up your file manager.</p>
 <p>2. Navigate to 'Other Locations' on the left navigation pane.</p>
 <p>3. Once in 'Other Locations', enter <code>smb://biostore.dbi.udel.edu</code> in the box at the bottom labeled "Connect to Server."  Then, hit connect.</p>
-<p><img src="https://udel-cbcb.github.io/biostore_docs/img/linux_connect_to_server.png" alt="Connect to server" width="600" /></p>
+<p><img src="https://udel-cbcb.github.io/biostore_docs/img/linux_connect_to_server.png" alt="Connect to server" width="500" /></p>
 <p>4. A dialogue box will appear and tell you, "Password required for biostore.dbi.udel.edu".  Your username will be the beginning of your udel email (the part before @udel.edu).  The domain will be <code>[username]@biostore.isilon</code>, where <code>[username]</code> is the same username you entered in the previous box.  Your password should have been set up in previous steps.  After entering the username, domain, and password, hit "Connect."</p>
-<p><img src="https://udel-cbcb.github.io/biostore_docs/img/linux_username_password.png" alt="Linux username and password" width="400" /></p>
+<p><img src="https://udel-cbcb.github.io/biostore_docs/img/linux_username_password.png" alt="Linux username and password" width="300" /></p>
 <p>5. You should now be connected to BioStore!  The file manager window will now display some of the directories on BioStore.  You will only be able to access directories where you have permissions and others will appear empty.  Your view mode should look something like this:</p>
-<p><img src="https://udel-cbcb.github.io/biostore_docs/img/linux_biostore_connection.png" alt="BioStore in Linux file manager" width="600" /></p>
+<p><img src="https://udel-cbcb.github.io/biostore_docs/img/linux_biostore_connection.png" alt="BioStore in Linux file manager" width="500" /></p>
 <p>6. Open the directory for your lab/group by double-clicking on the folder.  This will "mount" the directory and it will now appear on the sidebar just above "Other Locations"</p>
-<p><img src="https://udel-cbcb.github.io/biostore_docs/img/linux_mounted_connection.png" alt="BioStore mounted in other locations" width="600" /></p>
+<p><img src="https://udel-cbcb.github.io/biostore_docs/img/linux_mounted_connection.png" alt="BioStore mounted in other locations" width="500" /></p>
 <p>Alternatively, you can compress steps 4-6 into a single step by including the name of the volume in the server entry box, as below:</p>
-<p><img src="https://udel-cbcb.github.io/biostore_docs/img/linux_connect_to_server_corefs.png" alt="Connect to server without selecting volume" width="600" /></p>
+<p><img src="https://udel-cbcb.github.io/biostore_docs/img/linux_connect_to_server_corefs.png" alt="Connect to server without selecting volume" width="500" /></p>
 <p>If you choose to login this way, there will be an additional option in the username and password dialogue box.  Make sure the option "Registered User" is selected.</p>
 <p>7. You will now be able to use BioStore from either your file manager window or the command line.  To access BioStore from the command line, you will need to find the smb mount.  On our test device (Ubuntu 20.04), the location is <code>ls /run/user/1000/gvfs/smb-share\:server\=biostore.dbi.udel.edu\,share\=your_directory/</code>, where <code>your_directory</code> is the name of the directory for your lab or group's storage (e.g., corefs).  The easiest way to find this path is to drag and drop and folder or file from your BioStore allocation directly into the terminal.</p>
 <p>When you are done using BioStore, you can disconnect from the server using the "Disconnect" button.</p>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../windows_connect/" class="btn btn-neutral float-left" title="Connect from Windows"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../FAQs/" class="btn btn-neutral float-right" title="FAQs">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -168,6 +175,10 @@
         </span>
     
     
+      <span><a href="../windows_connect/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../FAQs/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
