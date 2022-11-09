@@ -10,7 +10,9 @@ If you would like to use BioStore, please see our [Getting Started](./getting_st
 
 ## Funding for BioStore
 
-Support for BioStore is provided by an NIH Shared Instrumentation Grant (NIH S10OD028725), the University of Delaware Research Office, and Delaware INBRE (NIH P20GM103446).
+Funding for BioStore has been provided by NIH grants.  Please cite this in any publications, presentations, and any outcomes that result from using this resource: 
+
+Computational support by the University of Delaware Center for Bioinformatics and Computational Biology Core Facility [RRID:SCR_017696] was made possible by support from an NIH Shared Instrumentation Grant (NIH S10OD028725),  Delaware INBRE (NIH P20GM103446), and the Delaware Biotechnology Institute.
 
 ## Contact Us
 
