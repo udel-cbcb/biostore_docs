@@ -8,7 +8,7 @@
     <title>Getting Started - BioStore Documentation</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
@@ -17,13 +17,12 @@
         var mkdocs_page_url = "/biostore_docs/getting_started/";
       </script>
     
-    <script src="../js/jquery-3.6.0.min.js" defer></script>
     <!--[if lt IE 9]>
       <script src="../js/html5shiv.min.js"></script>
     <![endif]-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/bash.min.js"></script>
-      <script>hljs.initHighlightingOnLoad();</script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/bash.min.js"></script>
+      <script>hljs.highlightAll();</script>
   
 
   
@@ -72,7 +71,7 @@
           <a href=".." class="icon icon-home"> BioStore Documentation
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -91,6 +90,8 @@
     <li class="toctree-l2"><a class="reference internal" href="#getting-a-password">Getting a Password</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#connecting-to-biostore">Connecting to BioStore</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#requesting-new-users-for-existing-allocation">Requesting New Users for Existing Allocation</a>
     </li>
     </ul>
                   </li>
@@ -119,9 +120,9 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>Using BioStore &raquo;</li>
-      <li>Getting Started</li>
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Using BioStore</li>
+      <li class="breadcrumb-item active">Getting Started</li>
     <li class="wy-breadcrumbs-aside">
           <a href="https://github.com/udel-cbcb/biostore_docs/edit/main/_docs_src/src/getting_started.md" class="icon icon-github"> Edit on GitHub</a>
     </li>
@@ -140,7 +141,7 @@
 <p>Be aware that storage allocations are limited availability and allocation awards will be given based on a number of factors, including demonstrated need, relevance of research to biomedical mission, and availablity of resources. Allocations will also need to be competitively renewed on an annual basis.</p>
 <h2 id="getting-a-password">Getting a Password</h2>
 <p>Your account on BioStore will be created when your resource allocation is approved.  To access this account, you will need a password.  </p>
-<p>There are two options for passwords.  You may either (a) use a password of your own creation or (b) be assigned a password.  In either case, you will need to send an email help@biomiformatics.udel.edu; include "BioStore" in the subject line.   In the email, indicate which option you would like to use.  If requesting a password, you will receive an email with a link that you should click on to retrieve your password.  If you are using your own password, you will be sent a link to a webform where you can submit your password.  After doing so, follow the instructions provided by the website.</p>
+<p>There are two options for passwords.  You may either (a) use a password of your own creation or (b) be assigned a password.  In either case, you will need to send an email help@bioinformatics.udel.edu; include "BioStore" in the subject line.   In the email, indicate which option you would like to use.  If requesting a password, you will receive an email with a link that you should click on to retrieve your password.  If you are using your own password, you will be sent a link to a webform where you can submit your password.  After doing so, follow the instructions provided by the website.</p>
 <h2 id="connecting-to-biostore">Connecting to BioStore</h2>
 <p>Now that your lab has space allocated and you have an account on the server, you will be able to connect to BioStore! This can be done from your PC, no matter your operating system. </p>
 <p>Please click on your operating system you will be using to connect for specific instructions.  Note that while Biomix is a Linux cluster, there are separate instructions for Biomix and Linux PCs.</p>
@@ -150,6 +151,8 @@
 <li><a href="../linux_connect/">Linux</a></li>
 </ul>
 <p>BioStore can also be accessed from <a href="https://bioinformatics.udel.edu/core/hpc/">Biomix</a>, UD's high-performance computing cluster.  However, this access type will not be available for all users.  You will be notified upon receipt of your allocation request approval whether you have qualified for this use type.  Instructions for Biomix connection to BioStore are therefore available upon request only.</p>
+<h2 id="requesting-new-users-for-existing-allocation">Requesting New Users for Existing Allocation</h2>
+<p>If you already have storage allocated on Biostore and need to add new members, please send an email to help@bioinformatics.udel.edu with the name and email of the new user(s) and the name of the PI for the allocation.</p>
               
             </div>
           </div><footer>
@@ -189,14 +192,15 @@
     
   </span>
 </div>
-    <script>var base_url = '..';</script>
-    <script src="../js/theme_extra.js" defer></script>
-    <script src="../js/theme.js" defer></script>
-      <script src="../search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);
-        };
+        });
     </script>
 
 </body>
