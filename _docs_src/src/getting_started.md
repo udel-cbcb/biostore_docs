@@ -16,7 +16,7 @@ Be aware that storage allocations are limited availability and allocation awards
 
 Your account on BioStore will be created when your resource allocation is approved.  To access this account, you will need a password.  
 
-There are two options for passwords.  You may either (a) use a password of your own creation or (b) be assigned a password.  In either case, you will need to send an email help@biomiformatics.udel.edu; include "BioStore" in the subject line.   In the email, indicate which option you would like to use.  If requesting a password, you will receive an email with a link that you should click on to retrieve your password.  If you are using your own password, you will be sent a link to a webform where you can submit your password.  After doing so, follow the instructions provided by the website.
+There are two options for passwords.  You may either (a) use a password of your own creation or (b) be assigned a password.  In either case, you will need to send an email help@bioinformatics.udel.edu; include "BioStore" in the subject line.   In the email, indicate which option you would like to use.  If requesting a password, you will receive an email with a link that you should click on to retrieve your password.  If you are using your own password, you will be sent a link to a webform where you can submit your password.  After doing so, follow the instructions provided by the website.
 
 ## Connecting to BioStore
 
@@ -29,3 +29,7 @@ Please click on your operating system you will be using to connect for specific 
 * [Linux](./linux_connect.md)
 
 BioStore can also be accessed from [Biomix](https://bioinformatics.udel.edu/core/hpc/), UD's high-performance computing cluster.  However, this access type will not be available for all users.  You will be notified upon receipt of your allocation request approval whether you have qualified for this use type.  Instructions for Biomix connection to BioStore are therefore available upon request only.
+
+## Requesting New Users for Existing Allocation
+
+If you already have storage allocated on Biostore and need to add new members, please send an email to help@bioinformatics.udel.edu with the name and email of the new user(s) and the name of the PI for the allocation.
