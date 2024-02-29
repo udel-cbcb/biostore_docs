@@ -12,6 +12,7 @@ nav:
       - Connect from MacOS: mac_connect.md
       - Connect from Windows: windows_connect.md
       - Connect from Linux: linux_connect.md
+      - Archiving Data from User Shares: archiving_user_share_data.md
   - Other Resources:
       - FAQs: FAQs.md
 theme:
