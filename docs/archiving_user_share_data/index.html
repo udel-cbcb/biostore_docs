@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Amelia O. Harrison" /><link rel="canonical" href="https://udel-cbcb.github.io/biostore_docs/biomix_connect/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Amelia O. Harrison" /><link rel="canonical" href="https://udel-cbcb.github.io/biostore_docs/archiving_user_share_data/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Connecting to BioStore from Biomix - BioStore Documentation</title>
+    <title>Archiving Data from User Shares - BioStore Documentation</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Connecting to BioStore from Biomix";
-        var mkdocs_page_input_path = "biomix_connect.md";
-        var mkdocs_page_url = "/biostore_docs/biomix_connect/";
+        var mkdocs_page_name = "Archiving Data from User Shares";
+        var mkdocs_page_input_path = "archiving_user_share_data.md";
+        var mkdocs_page_url = "/biostore_docs/archiving_user_share_data/";
       </script>
     
     <!--[if lt IE 9]>
@@ -38,22 +38,22 @@
   
 
 
-<meta property="og:site_name" content="Connecting to BioStore from Biomix - BioStore Documentation" />
+<meta property="og:site_name" content="Archiving Data from User Shares - BioStore Documentation" />
 
 <meta property="og:type" content="website">
 
-<meta property="og:title" content="Connecting to BioStore from Biomix - BioStore Documentation">
+<meta property="og:title" content="Archiving Data from User Shares - BioStore Documentation">
 
 <meta property="description" content="Documentation for the Biomedical Data Storage Resource (BioStore) at the University of Delaware.">
 <meta property="og:description" content="Documentation for the Biomedical Data Storage Resource (BioStore) at the University of Delaware.">
 <meta name="twitter:description" content="Documentation for the Biomedical Data Storage Resource (BioStore) at the University of Delaware.">
 
-<meta property="og:url" content="https://udel-cbcb.github.io/biostore_docs/biomix_connect/">
+<meta property="og:url" content="https://udel-cbcb.github.io/biostore_docs/archiving_user_share_data/">
 
 <meta property="og:locale" content="en_US">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Connecting to BioStore from Biomix - BioStore Documentation">
+<meta name="twitter:title" content="Archiving Data from User Shares - BioStore Documentation">
 
   
 
@@ -82,7 +82,7 @@
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">Using BioStore</span></p>
-              <ul>
+              <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="../getting_started/">Getting Started</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../mac_connect/">Connect from MacOS</a>
@@ -91,7 +91,9 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../linux_connect/">Connect from Linux</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../archiving_user_share_data/">Archiving Data from User Shares</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Archiving Data from User Shares</a>
+    <ul class="current">
+    </ul>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Other Resources</span></p>
@@ -113,9 +115,10 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Connecting to BioStore from Biomix</li>
+          <li class="breadcrumb-item">Using BioStore</li>
+      <li class="breadcrumb-item active">Archiving Data from User Shares</li>
     <li class="wy-breadcrumbs-aside">
-          <a href="https://github.com/udel-cbcb/biostore_docs/edit/main/_docs_src/src/biomix_connect.md" class="icon icon-github"> Edit on GitHub</a>
+          <a href="https://github.com/udel-cbcb/biostore_docs/edit/main/_docs_src/src/archiving_user_share_data.md" class="icon icon-github"> Edit on GitHub</a>
     </li>
   </ul>
   <hr/>
@@ -123,10 +126,29 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="connecting-to-biostore-from-biomix">Connecting to BioStore from Biomix</h1>
+                <h1 id="archiving-data-from-user-shares-to-tape-sop">Archiving Data from User Shares to Tape SOP</h1>
+<p><em>Note: This feature is only available on some accounts.  Send an email to help@bioinformatics.udel.edu to inquire.</em></p>
+<p><strong>Step 1: Create the Archive Directory</strong></p>
+<p>Within each group's shared folder (home directory), create an <code>archive</code> directory.</p>
+<p><strong>Step 2: Organize Files for Archiving</strong></p>
+<p>Inside the "archive" directory, create a sub-directory named <code>xxxx</code> and place the files you wish to archive in this sub-directory.</p>
+<p><strong>Step 3: Prepare for Archiving</strong></p>
+<p>Once all the files are inside <code>xxxx</code> and ready for backup, rename the directory to <code>xxxx.ready</code>.</p>
+<p><strong>Step 4: Automate Directory Renaming and Protection</strong></p>
+<p>Admin will configure a cron job to scan for directories within each shared folder's "archive" directory that have names ending with <code>.ready</code>. When these directories are identified, the <code>cron</code> job will rename them to <code>xxxx.archive</code> and set them to read-only, preventing users from adding additional files.</p>
+<p><strong>Step 5: Initiate Archiving</strong></p>
+<p>Admin will use a script to copy the <code>xxxx.archive</code> directory to the server hosting the tape drive and begin the archiving process to tapes.</p>
+<p><strong>Step 6: Verification and Cleanup</strong></p>
+<p>After the archiving job is complete, Admin's script will verify the consistency of the files backed up on the tapes with the original files. A list of these files will be placed in the <code>xxxx.archive</code> directory, and the original files in that folder will be deleted.</p>
+<p><strong>Step 7: Final Note</strong></p>
+<p>Admin will ensure that both the <code>xxxx.archive</code> directory and the list of archived files inside it are set to read-only for the group.</p>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../linux_connect/" class="btn btn-neutral float-left" title="Connect from Linux"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../FAQs/" class="btn btn-neutral float-right" title="FAQs">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -152,6 +174,10 @@
         </span>
     
     
+      <span><a href="../linux_connect/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../FAQs/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
