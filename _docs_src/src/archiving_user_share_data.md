@@ -1,6 +1,6 @@
 # Archiving Data from User Shares to Tape SOP
 
-*Note: This feature is only available on some accounts.  Send an email to help@bioinformatics.udel.edu to inquire.*
+*Note: This is a fee-based service that needs to be activated for individual accounts.  Send an email to help@bioinformatics.udel.edu to inquire.*
  
 **Step 1: Create the Archive Directory**
 
